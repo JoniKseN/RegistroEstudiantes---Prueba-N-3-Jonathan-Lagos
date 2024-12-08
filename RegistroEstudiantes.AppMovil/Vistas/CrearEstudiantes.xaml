@@ -18,6 +18,8 @@
                x:Name="segundoApellidoEntry"/>
         <Entry Placeholder="Correo Electronico"
                x:Name="correoEntry"/>
+        <Entry Placeholder="Curso Alumno"
+               x:Name="cursoAlumnoEntry"/>
         <Entry Placeholder="Edad"
                x:Name="edadEntry"
                Keyboard="Numeric"/>

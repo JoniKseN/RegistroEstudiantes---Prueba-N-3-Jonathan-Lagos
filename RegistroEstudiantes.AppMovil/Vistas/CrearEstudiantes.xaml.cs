@@ -32,6 +32,7 @@ public partial class CrearEstudiantes : ContentPage
 			PrimerApellido = primerApellidoEntry.Text,
 			SegundoApellido = segundoApellidoEntry.Text,
 			CorreoElectronico = correoEntry.Text,
+			CursoAlumno = cursoAlumnoEntry.Text,
 			Edad = int.Parse(edadEntry.Text),
 			FechaInicio = fechaInicioPicker.Date,
 			Curso = curso
