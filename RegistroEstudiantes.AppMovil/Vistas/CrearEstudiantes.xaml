@@ -24,9 +24,14 @@
                x:Name="edadEntry"
                Keyboard="Numeric"/>
         <DatePicker x:Name="fechaInicioPicker"/>
+
+        <StackLayout Orientation="Horizontal" Spacing="10">
+            <Label Text="Estado:" VerticalOptions="Center"/>
+            <Switch x:Name="EstadoSwitch" IsToggled="True"/>
+        </StackLayout>
+
         <Button Text="Guardar"
                 x:Name="guardarButton"
                 Clicked="guardarButton_Clicked"/>
-
     </VerticalStackLayout>
 </ContentPage>
